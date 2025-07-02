@@ -1,0 +1,39 @@
+.tittle {
+  color: #df0a0a;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: roboto, sans-serif;
+}
+.testoart {
+    color: #d95f13;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family: arial, sans-serif;
+}
+body {
+  background-color: #f9f9f0;
+  padding: 1em;
+  border-radius: 8px;
+}
+nav {
+  background-image: url(https://picsum.photos/1500/300);
+  border-radius: 8px;
+  text-align: left;
+}
+.menu {
+  list-style-type:circle;
+  padding: 50;
+}
+h2 {
+  color: #000000;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: roboto, sans-serif;
+}
+h2:hover {
+  color: #f8f6f6;
+  background-color: #000000;
+}
