@@ -1,13 +1,12 @@
-.tittle {
-  color: #df0a0a;
+.title {
   font-size: 1.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-family: roboto, sans-serif;
 }
 .testoart {
-    color: #d95f13;
-    font-size: 1.2em;
+    color: #000000;
+    font-size: 1em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-family: arial, sans-serif;
@@ -18,14 +17,66 @@ body {
   border-radius: 8px;
 }
 nav {
-  background-image: url(https://picsum.photos/1500/300);
+  background-color: black;
   border-radius: 8px;
   text-align: left;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0.5em;
 }
 .menu {
-  list-style-type:circle;
-  padding: 50;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  margin-right: 10px;
+  justify-content:space-between;
+  align-items: center
 }
+
+.intestazione {
+  display: flex;
+  flex-direction: column;
+  background-image: url("Media/Sfondo\ Blog.gif"); 
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white;
+  padding: 1em 2em;
+  border-radius: 8px;
+  margin: 1em 0;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
+  font-size: larger;
+  font weight: bold;
+  font-family: 'Roboto', sans-serif;  
+}
+
+.intestazione a {
+  color: #888888;       
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.intestazione a:hover {
+  color: white;      
+}
+
+.menu a {
+  color: white;
+  text-decoration: none; 
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-right: 25px;
+  }
+
+.menu a:hover {
+  color: yellow; 
+}
+
 h2 {
   color: #000000;
   font-size: 1.5em;
@@ -37,3 +88,91 @@ h2:hover {
   color: #f8f6f6;
   background-color: #000000;
 }
+
+.imgArticle {
+  width: 100%; 
+  height: auto;
+}
+
+.img_leggi_anche {
+  width: 400px;
+}
+
+.container_articles {
+  display: flex;
+  flex-wrap: wrap;           
+  gap: 20px;                 
+  justify-content: center;   
+}
+
+.container_articles article {
+  flex: 1 1 300px;           
+  max-width: 30%;            
+  box-sizing: border-box;    
+  width: 60%;
+}
+
+.link:hover {
+border-bottom: 2px solid rgb(216, 216, 87);
+}
+
+a.readmore {
+    display: inline-block;        
+    background-color: #ccc;      
+    color: #000;                  
+    padding: 5px 10px;         
+    border-radius: 5px;           
+    text-decoration: none;        
+    transition: background 0.3s;  
+}
+
+a.readmore:hover {
+    background-color: #aaa;       
+    color: #000;
+}
+
+aside {
+  padding-bottom: 2em; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;     
+  margin: 2em auto;        
+  max-width: 400px;        
+  text-align: center;      
+}
+
+aside h3.title {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.separator {
+    height: 2px;
+    background-color: #888; 
+    border: none;
+    margin: 3em 0;
+    width: 100%;             
+}
+
+footer {
+  background-color: #000000; 
+  color: white;              
+  text-align: center;        
+  padding: 1em;              
+  margin-top: 2em;           
+  border-radius: 8px;        
+}
+
+footer a {
+  background-color: #000  ;
+  color: white;           
+  text-decoration: none;  
+  transition: color 0.3s; 
+}
+
+footer a:hover {
+  color: yellow;          
+  border-bottom: 2px solid rgb(216, 216, 87);
+}
+
+
