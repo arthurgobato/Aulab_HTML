@@ -8,18 +8,30 @@
 </head>
 <body>
   <header>    
-    <nav>
-      <img src="Media/aulab-logo2.jpeg" height="50" alt="logo AULAB" class="logoAulab"/>
-      <ul class="menu">
-        <li ><a class="link" href="https://aulab.it/corso-gratuito" style="text-decoration:none" target="_blank">CORSI GRATUITI</a></li>
-        <li ><a class="link" href="https://aulab.it/hackademy-full-time/" style="text-decoration:none" target="_blank">CORSI</a></li>
-        <li ><a class="link" href="https://aulab.it/chi-siamo/" style="text-decoration:none" target="_blank">PERCHE' AULAB</a></li>
-        <li ><a class="link" href="https://aulab.it/guide" style="text-decoration:none" target="_blank">GUIDE</a></li>
-        <li ><a class="link" href="https://aulab.it/blog" style="text-decoration:none" target="_blank">BLOG</a></li>
-        <li ><a class="link" href="https://aulab.it/lavora-con-noi" style="text-decoration:none" target="_blank">LAVORA CON NOI</a></li>
-        <li ><a class="link" href="https://aulab.it/assumi-web-developer/" style="text-decoration:none" target="_blank">SEI UN'AZIENDA? </a></li>
-      </ul>
-    </nav>
+<nav>
+  <img src="Media/aulab-logo2.jpeg" height="50" alt="logo AULAB" class="logoAulab"/>
+
+  <!-- checkbox nascosto per menu mobile -->
+  <input type="checkbox" id="menu-toggle" />
+
+  <!-- etichetta che diventa hamburger -->
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  
+  <ul class="menu">
+    <li><a class="link" href="https://aulab.it/corso-gratuito" target="_blank">CORSI GRATUITI</a></li>
+    <li><a class="link" href="https://aulab.it/hackademy-full-time/" target="_blank">CORSI</a></li>
+    <li><a class="link" href="https://aulab.it/chi-siamo/" target="_blank">PERCHE' AULAB</a></li>
+    <li><a class="link" href="https://aulab.it/guide" target="_blank">GUIDE</a></li>
+    <li><a class="link" href="https://aulab.it/blog" target="_blank">BLOG</a></li>
+    <li><a class="link" href="https://aulab.it/lavora-con-noi" target="_blank">LAVORA CON NOI</a></li>
+    <li><a class="link" href="https://aulab.it/assumi-web-developer/" target="_blank">SEI UN'AZIENDA?</a></li>
+  </ul>
+</nav>
+
   </header>   
   <main>
   <section class="intestazione">
@@ -60,15 +72,28 @@
 <div class="separator"></div>
 
 
-  <aside>
-    <h3 class="title">Leggi anche</h3>
-    <article>
-      <img class= "img_leggi_anche" src="Media/img-guide-04.jpeg" alt="Immagine dell'articolo suggerito"/>
-      <h4>Trova il corso di programmazione giusto per te</h4>
-      <p class="testoart">Vuoi diventare uno sviluppatore web? Stai cercando un corso di coding ma non sai da dove cominciare? Non ti preoccupare! In questa guida per trovare il corso di informatica giusto..</p>
-      <a href="https://aulab.it/corso-di-informatica-programmazione-web" class="readmore">Leggi tutto >></a>
-    </article>
-  </aside>
+<aside>
+  <h3 class="title">Leggi anche</h3>
+  <article>
+    <div class="img-wrapper">
+      <img class="img_leggi_anche" src="Media/img-guide-04.jpeg" alt="Immagine dell'articolo suggerito"/>
+    </div>
+    <h4>Trova il corso di programmazione giusto per te</h4>
+    <p class="testoart">Vuoi diventare uno sviluppatore web? ...</p>
+    <a href="https://aulab.it/corso-di-informatica-programmazione-web" class="readmore">Leggi tutto >></a>
+  </article>
+</aside>
+
+<!-- ancora in cima -->
+<div id="top"></div>
+
+<!-- bottone -->
+<div class="upbutton">
+  <a href="#top">
+    <img src="Media/up-arrow.png" alt="freccia per tornare su" height="30"/>
+  </a>
+</div>
+
   <footer>
     © 2024 Aulab Srl • Tutti i diritti riservati • P.IVA IT07647440721 •
     <a href="https://aulab.it/privacy-policy/" target="_blank">Privacy Policy</a> •
